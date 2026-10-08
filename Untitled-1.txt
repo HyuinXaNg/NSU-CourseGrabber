@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{
+	for (int m = 1; m <= 9; m++)
+	{
+		for (int i = 1; i <= m ; i++)
+		{
+			printf("%d * %d =%d",m , i, m * i);
+		}
+		printf("\n");
+	}
+}
